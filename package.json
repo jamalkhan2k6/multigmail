@@ -1,0 +1,29 @@
+{
+  "name": "multi-gmail",
+  "version": "1.0.0",
+  "description": "Just needed a multiple gmail desktop client. No judgments on the code!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . multi-gmail-app --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"MultiGmail\""
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.1.2"
+  },
+  "dependencies": {
+    "electron-store": "^2.0.0",
+    "electron-tabs": "^0.9.4",
+    "electron-window-state": "^5.0.1"
+  }
+}

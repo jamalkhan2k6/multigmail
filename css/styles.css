@@ -1,0 +1,142 @@
+body{
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+}
+
+html{
+	
+}
+
+.webview{
+	width:100%;
+	height: calc(100% - 50px);
+	position: absolute;
+}
+
+#tabs{
+	padding: 20px 10px 10px 20px;
+	margin-bottom: 10px;
+	background-color: #f1f1f1;
+	margin-top: 0px;
+}
+
+#tabs a{
+	text-decoration: none;
+	color:#333;
+	padding: 10px 30px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	/*box-shadow: 1px 1px 1px rgba(0,0,0, 0.2);*/
+	background-color: #f1f1f1;
+	border-radius: 7px 7px 0px 0px;
+	position: relative;
+	font-size: 14px;
+}
+
+#tabs a.active{
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#blank{
+	text-align: center;
+	font-family: arial;
+	margin-top: 20%;
+	display: none;
+}
+
+
+#blank a{
+	font-size: 60px;
+	text-decoration: none;
+	color:#333;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	padding: 20px 30px;
+	box-shadow: 1px 1px 1px rgba(0,0,0, 0.2);	
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+#context_menu{
+	position: absolute;
+	background-color: #fff;
+	color:#333;
+	padding: 0px 0px;
+	box-shadow: 1px 1px 2px rgba(0,0,0, 0.1);	
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	display: none;
+}
+
+
+#context_menu ul{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+
+#context_menu ul li a{
+	text-decoration: none;
+	color:#333;
+	border-bottom: 1px solid #ccc;
+
+}
+
+#context_menu ul li{
+	margin-bottom: 20px;
+}
+
+
+.vex {
+    position: fixed;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1111;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    padding: 20px;
+}
+
+
+.vex-content {
+    background: #fff;
+    padding: 20px;
+}
+
+.vex-dialog-input input{
+	    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.vex-dialog-buttons button{
+
+    padding: 5px 22px;
+    margin-right: 10px;
+    font-size: 16px;
+    /* font-weight: bold; */
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.vex-dialog-message{
+	font-size: 20px;
+    font-family: tahoma;
+    color: #666;
+}
+
+.vex-content{
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 32px rgba(0,0,0,0.2);
+}
