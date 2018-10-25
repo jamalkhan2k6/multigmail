@@ -1,8 +1,10 @@
 # multigmail
 Small multiple gmail desktop client built with electron. No judgements on the code, be cool.
 
+# Installation
+Just download the zip from the releases page and run the application. No installation needed.
 
-## To Use
+## For Development
 
 ```bash
 # Clone this repository
