@@ -24,6 +24,7 @@
   "dependencies": {
     "electron-store": "^2.0.0",
     "electron-tabs": "^0.9.4",
-    "electron-window-state": "^5.0.1"
+    "electron-window-state": "^5.0.1",
+    "cryptiles": ">=4.1.2"
   }
 }
